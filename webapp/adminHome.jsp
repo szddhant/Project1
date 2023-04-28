@@ -12,6 +12,7 @@
 <br>
 <pre><h1>Welcome to Admin Dashboard</h1>                                                                                                               <a href="index.jsp">back</a></pre>
 <a  href="addHr.jsp">Add HR</a><br><br>
-<a  href="ListHrController">Show HR</a>
+<a  href="ListHrController">Show HR</a><br><br>
+<a href="ListCndController">Show Candidates</a>
 </body>
 </html>

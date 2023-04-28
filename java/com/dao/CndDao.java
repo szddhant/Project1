@@ -212,7 +212,8 @@ public void addLang(int cnd_id, String[] lang) {
 			
 		} catch (SQLException e) {
 			e.printStackTrace();
-		}finally {
+		}
+			finally {
 			try {
 				con.close();
 			}catch(Exception e) {
@@ -261,7 +262,8 @@ public void addTech(int cnd_id, String[] tech) {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}finally {
+		}
+		finally {
 			try {
 				con.close();
 			}catch(Exception e) {
@@ -308,7 +310,8 @@ public void addDb(int cnd_id, String[] db) {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}finally {
+		}
+		finally {
 			try {
 				con.close();
 			}catch(Exception e) {
